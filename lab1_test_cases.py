@@ -85,11 +85,11 @@ class TestLab1(unittest.TestCase):
         list_val = [3,4,5,6,7,8,9]
         self.assertEqual(bin_search(9,0,len(list_val)-1,list_val),6)
     
-    '''def test8_bin_search(self):
-        tests case when list is none
+    def test8_bin_search(self):
+        ''' tests case when list is none'''
         list_val = None
         with self.assertRaises(ValueError):
-            bin_search(1,0,0,list_val)'''
+            bin_search(1,0,0,list_val)
 if __name__ == "__main__":
         unittest.main()
 
